@@ -6,31 +6,26 @@
     android:layout_height="match_parent"
     android:background="#7E1FC498">
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="414dp"
-        android:layout_height="829dp"
-        android:layout_marginTop="100dp"
-        android:contentDescription="@string/app_name"
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="164dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/icons_list"
-        tools:ignore="ImageContrastCheck,VisualLintBounds" />
+        app:srcCompat="@drawable/icons_list" />
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="354dp"
-        android:layout_height="260dp"
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView7"
+        android:layout_width="344dp"
+        android:layout_height="365dp"
+        android:layout_marginBottom="500dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.035"
-        app:srcCompat="@drawable/navigation_amico"
-        android:contentDescription="@string/app_name" />
+        app:srcCompat="@drawable/navigation_amico" />
 
     <LinearLayout
         android:id="@+id/container"
