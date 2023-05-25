@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">My_design_angge</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="let_s_get_started">Let\'s Get Started</string>
+    <string name="email">Email</string>
+    <string name="full_name">Full Name</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create">Create</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="email2">Email</string>
+    <string name="password2">Password</string>
+    <string name="login_to_your_account">Login to your Account</string>
+    <string name="your_assistant_in_finding_and_navigating_through_hospitals">Your assistant in finding and navigating through Hospitals</string>
+    <string name="login2">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="let_s_get_started2">Let\'s Get Started!</string>
+    <string name="municipal_disaster_risk_reduction_and_management_office">Municipal Disaster Risk Reduction and Management Office</string>
+    <string name="echague_manicipal_ground_san_fabian_echague_isabela">Echague Manicipal Ground, San Fabian, Echague, Isabela</string>
+    <string name="add">ADD</string>
+    <string name="province">Province</string>
+    <string name="municipality">Municipality</string>
+    <string name="enter_hospital">Enter hospital</string>
+    <string name="longitude">Longitude</string>
+    <string name="enter_longitude">Enter longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="enter_latitude">Enter latitude</string>
+    <string name="hospital">Hospital</string>
+    <string name="enter_municipality">Enter municipality</string>
+    <string name="enter_province">Enter province</string>
+    <string name="image">image</string>
+</resources>
