@@ -3,22 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#EAF2FF">
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="309dp"
-        android:layout_height="390dp"
-        android:layout_marginTop="416dp"
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView13"
+        android:layout_width="411dp"
+        android:layout_height="328dp"
+        android:layout_marginTop="424dp"
         android:alpha="0.5"
-        android:background="#0FFFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/female_doctor_holding_clipboard_61841_1604"
-        tools:ignore="ImageContrastCheck" />
-
-
+        app:srcCompat="@drawable/doctotre" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -52,6 +51,7 @@
 
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10sp"
