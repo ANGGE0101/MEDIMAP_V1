@@ -6,48 +6,17 @@
     android:layout_height="match_parent"
     android:background="#EAF2FF">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="299dp"
-        android:layout_height="14dp"
-        android:text="@string/municipal_disaster_risk_reduction_and_management_office"
-        android:textColor="#000000"
-        android:textSize="11sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.741"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.94"
-        tools:ignore="TextSizeCheck" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="285dp"
-        android:layout_height="27dp"
-        android:text="@string/echague_manicipal_ground_san_fabian_echague_isabela"
-        android:textColor="#000000"
-        android:textSize="11sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.68"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.97"
-        tools:ignore="TextSizeCheck" />
-
     <androidx.constraintlayout.utils.widget.ImageFilterView
-        android:id="@+id/imageFilterView3"
-        android:layout_width="73dp"
-        android:layout_height="69dp"
+        android:id="@+id/imageFilterView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.981"
-        app:srcCompat="@drawable/er" />
+        app:srcCompat="@drawable/icons_list" />
 
     <androidx.constraintlayout.utils.widget.ImageFilterView
         android:id="@+id/imageFilterView4"
@@ -58,16 +27,58 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/anggemedi" />
 
-    <androidx.constraintlayout.utils.widget.ImageFilterView
-        android:id="@+id/imageFilterView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="160dp"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="407dp"
+        android:layout_height="83dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/icons_list" />
+        app:layout_constraintTop_toBottomOf="@+id/imageFilterView4"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="299dp"
+            android:layout_height="14dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/municipal_disaster_risk_reduction_and_management_office"
+            android:textColor="#000000"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageFilterView3"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="285dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/echague_manicipal_ground_san_fabian_echague_isabela"
+            android:textColor="#000000"
+            android:textSize="11sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageFilterView3"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TextSizeCheck" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/imageFilterView3"
+            android:layout_width="73dp"
+            android:layout_height="69dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/er" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
