@@ -8,7 +8,7 @@
 
     <androidx.constraintlayout.utils.widget.ImageFilterView
         android:id="@+id/imageFilterView8"
-        android:layout_width="311dp"
+        android:layout_width="310dp"
         android:layout_height="505dp"
         android:layout_marginBottom="464dp"
         app:layout_constraintBottom_toBottomOf="parent"
